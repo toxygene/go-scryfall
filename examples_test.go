@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	scryfall "github.com/BlueMonday/go-scryfall"
+	scryfall "github.com/toxygene/go-scryfall"
 )
 
 func ExampleClient_SearchCards() {

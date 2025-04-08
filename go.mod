@@ -1,4 +1,4 @@
-module github.com/BlueMonday/go-scryfall
+module github.com/toxygene/go-scryfall
 
 go 1.17
 
