@@ -611,6 +611,9 @@ type Card struct {
 	// FlavorName is the just-for-fun name printed on the card (such as for
 	// Godzilla series cards).
 	FlavorName *string `json:"flavor_name,omitempty"`
+
+	// The date this card was first released.
+	ReleasedAt Date `json:"released_at,omitempty"`
 }
 
 // RelatedCard is a card that is closely related to another card (because it
